@@ -1,4 +1,4 @@
-# 📊 Fontes de Dados: Reais vs Simulados 
+# Fontes de Dados: Reais vs Simulados 
 
 ## Visão Geral
 
@@ -12,7 +12,7 @@ O sistema possui **3 fontes de dados** diferentes que são usadas em uma **hiera
 
 ---
 
-## 📁 **1. DADOS REAIS DO ERP.json**
+## **1. DADOS REAIS DO ERP.json**
 
 ### **Localização:**
 ```
@@ -242,7 +242,7 @@ dados_df = carregar_dados_restaurante(usar_dados_reais=False)
 
 ---
 
-## 🔍 **Como Verificar Qual Fonte Está Sendo Usada**
+## **Como Verificar Qual Fonte Está Sendo Usada**
 
 ### **1. Logs do Sistema:**
 ```bash
@@ -593,7 +593,5 @@ Visualização (Plotly + Streamlit)
 - **Análise de tendências** com tratamento de dados insuficientes
 - **Dashboard interativo** com filtros dinâmicos
 - **Cache inteligente** para performance
-- **Transparência total** sobre fontes e limitações
 
-### **Resultado Final:**
-**Análise de dados completa para restaurante que combina dados reais com funcionalidades avançadas, mantendo total transparência sobre suas capacidades e limitações!** 
+
