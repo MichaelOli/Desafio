@@ -103,7 +103,7 @@ CREATE TABLE itens_menu (
 
 ## DESAFIO 2: Data Lake e Pipeline de APIs
 
-### ✅ **1. Por que armazenar as respostas das APIs?**
+### **1. Por que armazenar as respostas das APIs?**
 
 **Onde encontrar:**
 - `docs/solucao_desafio2.md` - Justificativas detalhadas
