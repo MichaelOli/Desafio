@@ -31,8 +31,7 @@ desafio-engenheiro-dados/
 ├── dados/                     # Dados de entrada
 │   ├── vendas.csv
 │   └── produtos.json
-├── cadernos/                  # Análises em Jupyter
-│   └── analise_exploratoria.ipynb
+├── docs/                 
 ├── src/                       # Código fonte
 │   ├── __init__.py
 │   ├── extrair.py
