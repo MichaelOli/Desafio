@@ -1,8 +1,3 @@
-"""
-Script principal do projeto de Engenharia de Dados.
-Executa os desafios 1 e 2 de forma integrada.
-"""
-
 from src.analisar import AnalisadorDados
 from src.transformar import TransformadorDados
 from src.extrair import ExtratorDados
