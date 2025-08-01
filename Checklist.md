@@ -105,7 +105,7 @@ CREATE TABLE itens_menu (
 
 ### ✅ **1. Por que armazenar as respostas das APIs?**
 
-**📁 Onde encontrar:**
+**Onde encontrar:**
 - `docs/solucao_desafio2.md` - Justificativas detalhadas
 - `docs/documentacao_data_lake.json` - Documentação técnica
 
@@ -182,7 +182,7 @@ dados/data_lake/
 - `docs/solucao_desafio2.md` - Estratégia completa de evolução
 - `src/desafio2/gerenciador_data_lake.py` - Implementação de versionamento
 
-**🔍 O que foi entregue:**
+**O que foi entregue:**
 
 #### **Impactos Identificados:**
 1. **Quebra de Compatibilidade:** Pipelines existentes falharão
@@ -224,7 +224,7 @@ class DetectorMudancasEsquema:
 
 ### **Dashboard Interativo com Streamlit**
 
-**📁 Onde encontrar:**
+**Onde encontrar:**
 - `app_streamlit.py` - Aplicação web completa
 - `src/analisar.py` - Visualizações específicas para restaurante
 
@@ -236,7 +236,7 @@ class DetectorMudancasEsquema:
 
 ### **Pipeline ETL Completo**
 
-**📁 Onde encontrar:**
+**Onde encontrar:**
 - `src/extrair.py` - Extração de dados reais
 - `src/transformar.py` - Limpeza e transformação
 - `src/analisar.py` - Análise e relatórios
@@ -249,7 +249,7 @@ class DetectorMudancasEsquema:
 
 ### **Testes de Integração**
 
-**📁 Onde encontrar:**
+**Onde encontrar:**
 - `testes/teste_integracao.py` - Suite completa de testes
 
 **O que foi entregue:**
@@ -314,13 +314,13 @@ streamlit run app_streamlit.py
 
 | Requisito | Status | Localização | Evidência |
 |-----------|--------|-------------|-----------|
-| **Desafio 1.1** - Esquema JSON | ✅ Completo | `docs/analise_esquema.json` | Análise automatizada completa |
-| **Desafio 1.2** - Tabelas SQL | ✅ Completo | `sql/criar_tabelas.sql` | 8 tabelas normalizadas |
-| **Desafio 1.3** - Justificativa | ✅ Completo | `docs/solucao_desafio1.md` | Documentação detalhada |
-| **Desafio 2.1** - Por que armazenar | ✅ Completo | `docs/solucao_desafio2.md` | Justificativas técnicas |
-| **Desafio 2.2** - Estrutura dados | ✅ Completo | `dados/data_lake/` | Implementação real |
-| **Desafio 2.3** - Evolução schema | ✅ Completo | `src/desafio2/` | Código funcional |
-| **Código Produção** | ✅ Completo | Todo o projeto | Testes passando |
-| **Dashboard Interativo** | ✅ Bonus | `app_streamlit.py` | Interface web |
+| **Desafio 1.1** - Esquema JSON | Completo | `docs/analise_esquema.json` | Análise automatizada completa |
+| **Desafio 1.2** - Tabelas SQL | Completo | `sql/criar_tabelas.sql` | 8 tabelas normalizadas |
+| **Desafio 1.3** - Justificativa | Completo | `docs/solucao_desafio1.md` | Documentação detalhada |
+| **Desafio 2.1** - Por que armazenar | Completo | `docs/solucao_desafio2.md` | Justificativas técnicas |
+| **Desafio 2.2** - Estrutura dados | Completo | `dados/data_lake/` | Implementação real |
+| **Desafio 2.3** - Evolução schema | Completo | `src/desafio2/` | Código funcional |
+| **Código Produção** | Completo | Todo o projeto | Testes passando |
+| **Dashboard Interativo** | Bonus | `app_streamlit.py` | Interface web |
 
 ---
