@@ -1,0 +1,840 @@
+{
+  "timestamp_analise": "2025-07-31T18:53:25.703669",
+  "versao_esquema": "1.0",
+  "descricao": "Esquema do sistema ERP de restaurante - Guest Check",
+  "estrutura_raiz": {
+    "tipo": "objeto",
+    "caminho": "raiz",
+    "propriedades": {
+      "guestCheckId": {
+        "tipo": "str",
+        "caminho": "raiz.guestCheckId",
+        "valor": "12345678-1234-5678-9012-123456789012",
+        "tipo_python": "str",
+        "tamanho": 36,
+        "esta_vazio": false,
+        "formato": "uuid",
+        "tipo_sql": "UUID"
+      },
+      "chkNum": {
+        "tipo": "int",
+        "caminho": "raiz.chkNum",
+        "valor": 1001,
+        "tipo_python": "int",
+        "tipo_sql": "INTEGER",
+        "restricao": "CHECK (valor >= 0)"
+      },
+      "opnBusDt": {
+        "tipo": "str",
+        "caminho": "raiz.opnBusDt",
+        "valor": "2024-01-15",
+        "tipo_python": "str",
+        "tamanho": 10,
+        "esta_vazio": false,
+        "formato": "data",
+        "tipo_sql": "DATE"
+      },
+      "opnUTC": {
+        "tipo": "str",
+        "caminho": "raiz.opnUTC",
+        "valor": "2024-01-15T18:30:00.000Z",
+        "tipo_python": "str",
+        "tamanho": 24,
+        "esta_vazio": false,
+        "formato": "datetime",
+        "tipo_sql": "TIMESTAMP"
+      },
+      "opnLcl": {
+        "tipo": "str",
+        "caminho": "raiz.opnLcl",
+        "valor": "2024-01-15T15:30:00.000-03:00",
+        "tipo_python": "str",
+        "tamanho": 29,
+        "esta_vazio": false,
+        "formato": "datetime",
+        "tipo_sql": "TIMESTAMP"
+      },
+      "clsdBusDt": {
+        "tipo": "str",
+        "caminho": "raiz.clsdBusDt",
+        "valor": "2024-01-15",
+        "tipo_python": "str",
+        "tamanho": 10,
+        "esta_vazio": false,
+        "formato": "data",
+        "tipo_sql": "DATE"
+      },
+      "clsdUTC": {
+        "tipo": "str",
+        "caminho": "raiz.clsdUTC",
+        "valor": "2024-01-15T19:15:00.000Z",
+        "tipo_python": "str",
+        "tamanho": 24,
+        "esta_vazio": false,
+        "formato": "datetime",
+        "tipo_sql": "TIMESTAMP"
+      },
+      "clsdLcl": {
+        "tipo": "str",
+        "caminho": "raiz.clsdLcl",
+        "valor": "2024-01-15T16:15:00.000-03:00",
+        "tipo_python": "str",
+        "tamanho": 29,
+        "esta_vazio": false,
+        "formato": "datetime",
+        "tipo_sql": "TIMESTAMP"
+      },
+      "lastTransUTC": {
+        "tipo": "str",
+        "caminho": "raiz.lastTransUTC",
+        "valor": "2024-01-15T19:15:00.000Z",
+        "tipo_python": "str",
+        "tamanho": 24,
+        "esta_vazio": false,
+        "formato": "datetime",
+        "tipo_sql": "TIMESTAMP"
+      },
+      "lastTransLcl": {
+        "tipo": "str",
+        "caminho": "raiz.lastTransLcl",
+        "valor": "2024-01-15T16:15:00.000-03:00",
+        "tipo_python": "str",
+        "tamanho": 29,
+        "esta_vazio": false,
+        "formato": "datetime",
+        "tipo_sql": "TIMESTAMP"
+      },
+      "lastUpdatedUTC": {
+        "tipo": "str",
+        "caminho": "raiz.lastUpdatedUTC",
+        "valor": "2024-01-15T19:15:00.000Z",
+        "tipo_python": "str",
+        "tamanho": 24,
+        "esta_vazio": false,
+        "formato": "datetime",
+        "tipo_sql": "TIMESTAMP"
+      },
+      "lastUpdatedLcl": {
+        "tipo": "str",
+        "caminho": "raiz.lastUpdatedLcl",
+        "valor": "2024-01-15T16:15:00.000-03:00",
+        "tipo_python": "str",
+        "tamanho": 29,
+        "esta_vazio": false,
+        "formato": "datetime",
+        "tipo_sql": "TIMESTAMP"
+      },
+      "clsdFlag": {
+        "tipo": "bool",
+        "caminho": "raiz.clsdFlag",
+        "valor": true,
+        "tipo_python": "bool",
+        "tipo_sql": "INTEGER",
+        "restricao": "CHECK (valor >= 0)"
+      },
+      "gstCnt": {
+        "tipo": "int",
+        "caminho": "raiz.gstCnt",
+        "valor": 2,
+        "tipo_python": "int",
+        "tipo_sql": "INTEGER",
+        "restricao": "CHECK (valor >= 0)"
+      },
+      "subTtl": {
+        "tipo": "float",
+        "caminho": "raiz.subTtl",
+        "valor": 45.5,
+        "tipo_python": "float",
+        "tipo_sql": "DECIMAL(10, 2)"
+      },
+      "nonTxblSlsTtl": {
+        "tipo": "float",
+        "caminho": "raiz.nonTxblSlsTtl",
+        "valor": 0.0,
+        "tipo_python": "float",
+        "tipo_sql": "DECIMAL(10, 2)"
+      },
+      "chkTtl": {
+        "tipo": "float",
+        "caminho": "raiz.chkTtl",
+        "valor": 50.05,
+        "tipo_python": "float",
+        "tipo_sql": "DECIMAL(10, 2)"
+      },
+      "dscTtl": {
+        "tipo": "float",
+        "caminho": "raiz.dscTtl",
+        "valor": 2.25,
+        "tipo_python": "float",
+        "tipo_sql": "DECIMAL(10, 2)"
+      },
+      "payTtl": {
+        "tipo": "float",
+        "caminho": "raiz.payTtl",
+        "valor": 50.05,
+        "tipo_python": "float",
+        "tipo_sql": "DECIMAL(10, 2)"
+      },
+      "balDueTtl": {
+        "tipo": "float",
+        "caminho": "raiz.balDueTtl",
+        "valor": 0.0,
+        "tipo_python": "float",
+        "tipo_sql": "DECIMAL(10, 2)"
+      },
+      "rvcNum": {
+        "tipo": "int",
+        "caminho": "raiz.rvcNum",
+        "valor": 1,
+        "tipo_python": "int",
+        "tipo_sql": "INTEGER",
+        "restricao": "CHECK (valor >= 0)"
+      },
+      "otNum": {
+        "tipo": "int",
+        "caminho": "raiz.otNum",
+        "valor": 15,
+        "tipo_python": "int",
+        "tipo_sql": "INTEGER",
+        "restricao": "CHECK (valor >= 0)"
+      },
+      "ocNum": {
+        "tipo": "int",
+        "caminho": "raiz.ocNum",
+        "valor": 3,
+        "tipo_python": "int",
+        "tipo_sql": "INTEGER",
+        "restricao": "CHECK (valor >= 0)"
+      },
+      "tblNum": {
+        "tipo": "int",
+        "caminho": "raiz.tblNum",
+        "valor": 12,
+        "tipo_python": "int",
+        "tipo_sql": "INTEGER",
+        "restricao": "CHECK (valor >= 0)"
+      },
+      "tblName": {
+        "tipo": "str",
+        "caminho": "raiz.tblName",
+        "valor": "Mesa 12",
+        "tipo_python": "str",
+        "tamanho": 7,
+        "esta_vazio": false,
+        "formato": "texto",
+        "tipo_sql": "VARCHAR(255)"
+      },
+      "empNum": {
+        "tipo": "int",
+        "caminho": "raiz.empNum",
+        "valor": 1001,
+        "tipo_python": "int",
+        "tipo_sql": "INTEGER",
+        "restricao": "CHECK (valor >= 0)"
+      },
+      "numSrvcRd": {
+        "tipo": "int",
+        "caminho": "raiz.numSrvcRd",
+        "valor": 1,
+        "tipo_python": "int",
+        "tipo_sql": "INTEGER",
+        "restricao": "CHECK (valor >= 0)"
+      },
+      "numChkPrntd": {
+        "tipo": "int",
+        "caminho": "raiz.numChkPrntd",
+        "valor": 1,
+        "tipo_python": "int",
+        "tipo_sql": "INTEGER",
+        "restricao": "CHECK (valor >= 0)"
+      },
+      "taxes": {
+        "tipo": "array",
+        "caminho": "raiz.taxes",
+        "tamanho": 1,
+        "tipos_itens": [
+          "objeto"
+        ],
+        "item_exemplo": {
+          "tipo": "objeto",
+          "caminho": "raiz.taxes[0]",
+          "propriedades": {
+            "taxNum": {
+              "tipo": "int",
+              "caminho": "raiz.taxes[0].taxNum",
+              "valor": 1,
+              "tipo_python": "int",
+              "tipo_sql": "INTEGER",
+              "restricao": "CHECK (valor >= 0)"
+            },
+            "txblSlsTtl": {
+              "tipo": "float",
+              "caminho": "raiz.taxes[0].txblSlsTtl",
+              "valor": 45.5,
+              "tipo_python": "float",
+              "tipo_sql": "DECIMAL(10, 2)"
+            },
+            "taxCollTtl": {
+              "tipo": "float",
+              "caminho": "raiz.taxes[0].taxCollTtl",
+              "valor": 4.55,
+              "tipo_python": "float",
+              "tipo_sql": "DECIMAL(10, 2)"
+            },
+            "taxRate": {
+              "tipo": "float",
+              "caminho": "raiz.taxes[0].taxRate",
+              "valor": 10.0,
+              "tipo_python": "float",
+              "tipo_sql": "DECIMAL(10, 2)"
+            },
+            "type": {
+              "tipo": "int",
+              "caminho": "raiz.taxes[0].type",
+              "valor": 1,
+              "tipo_python": "int",
+              "tipo_sql": "INTEGER",
+              "restricao": "CHECK (valor >= 0)"
+            }
+          },
+          "campos_obrigatorios": [
+            "taxNum",
+            "txblSlsTtl",
+            "taxCollTtl",
+            "taxRate",
+            "type"
+          ],
+          "campos_opcionais": []
+        }
+      },
+      "detailLines": {
+        "tipo": "array",
+        "caminho": "raiz.detailLines",
+        "tamanho": 3,
+        "tipos_itens": [
+          "objeto"
+        ],
+        "item_exemplo": {
+          "tipo": "objeto",
+          "caminho": "raiz.detailLines[0]",
+          "propriedades": {
+            "guestCheckLineItemId": {
+              "tipo": "str",
+              "caminho": "raiz.detailLines[0].guestCheckLineItemId",
+              "valor": "87654321-4321-8765-2109-876543210987",
+              "tipo_python": "str",
+              "tamanho": 36,
+              "esta_vazio": false,
+              "formato": "uuid",
+              "tipo_sql": "UUID"
+            },
+            "rvcNum": {
+              "tipo": "int",
+              "caminho": "raiz.detailLines[0].rvcNum",
+              "valor": 1,
+              "tipo_python": "int",
+              "tipo_sql": "INTEGER",
+              "restricao": "CHECK (valor >= 0)"
+            },
+            "dtlOtNum": {
+              "tipo": "int",
+              "caminho": "raiz.detailLines[0].dtlOtNum",
+              "valor": 15,
+              "tipo_python": "int",
+              "tipo_sql": "INTEGER",
+              "restricao": "CHECK (valor >= 0)"
+            },
+            "dtlOcNum": {
+              "tipo": "int",
+              "caminho": "raiz.detailLines[0].dtlOcNum",
+              "valor": 3,
+              "tipo_python": "int",
+              "tipo_sql": "INTEGER",
+              "restricao": "CHECK (valor >= 0)"
+            },
+            "lineNum": {
+              "tipo": "int",
+              "caminho": "raiz.detailLines[0].lineNum",
+              "valor": 1,
+              "tipo_python": "int",
+              "tipo_sql": "INTEGER",
+              "restricao": "CHECK (valor >= 0)"
+            },
+            "dtlId": {
+              "tipo": "int",
+              "caminho": "raiz.detailLines[0].dtlId",
+              "valor": 1,
+              "tipo_python": "int",
+              "tipo_sql": "INTEGER",
+              "restricao": "CHECK (valor >= 0)"
+            },
+            "detailUTC": {
+              "tipo": "str",
+              "caminho": "raiz.detailLines[0].detailUTC",
+              "valor": "2024-01-15T18:35:00.000Z",
+              "tipo_python": "str",
+              "tamanho": 24,
+              "esta_vazio": false,
+              "formato": "datetime",
+              "tipo_sql": "TIMESTAMP"
+            },
+            "detailLcl": {
+              "tipo": "str",
+              "caminho": "raiz.detailLines[0].detailLcl",
+              "valor": "2024-01-15T15:35:00.000-03:00",
+              "tipo_python": "str",
+              "tamanho": 29,
+              "esta_vazio": false,
+              "formato": "datetime",
+              "tipo_sql": "TIMESTAMP"
+            },
+            "lastUpdateUTC": {
+              "tipo": "str",
+              "caminho": "raiz.detailLines[0].lastUpdateUTC",
+              "valor": "2024-01-15T18:35:00.000Z",
+              "tipo_python": "str",
+              "tamanho": 24,
+              "esta_vazio": false,
+              "formato": "datetime",
+              "tipo_sql": "TIMESTAMP"
+            },
+            "lastUpdateLcl": {
+              "tipo": "str",
+              "caminho": "raiz.detailLines[0].lastUpdateLcl",
+              "valor": "2024-01-15T15:35:00.000-03:00",
+              "tipo_python": "str",
+              "tamanho": 29,
+              "esta_vazio": false,
+              "formato": "datetime",
+              "tipo_sql": "TIMESTAMP"
+            },
+            "busDt": {
+              "tipo": "str",
+              "caminho": "raiz.detailLines[0].busDt",
+              "valor": "2024-01-15",
+              "tipo_python": "str",
+              "tamanho": 10,
+              "esta_vazio": false,
+              "formato": "data",
+              "tipo_sql": "DATE"
+            },
+            "wsNum": {
+              "tipo": "int",
+              "caminho": "raiz.detailLines[0].wsNum",
+              "valor": 1,
+              "tipo_python": "int",
+              "tipo_sql": "INTEGER",
+              "restricao": "CHECK (valor >= 0)"
+            },
+            "dspTtl": {
+              "tipo": "float",
+              "caminho": "raiz.detailLines[0].dspTtl",
+              "valor": 22.75,
+              "tipo_python": "float",
+              "tipo_sql": "DECIMAL(10, 2)"
+            },
+            "dspQty": {
+              "tipo": "int",
+              "caminho": "raiz.detailLines[0].dspQty",
+              "valor": 1,
+              "tipo_python": "int",
+              "tipo_sql": "INTEGER",
+              "restricao": "CHECK (valor >= 0)"
+            },
+            "aggTtl": {
+              "tipo": "float",
+              "caminho": "raiz.detailLines[0].aggTtl",
+              "valor": 22.75,
+              "tipo_python": "float",
+              "tipo_sql": "DECIMAL(10, 2)"
+            },
+            "aggQty": {
+              "tipo": "int",
+              "caminho": "raiz.detailLines[0].aggQty",
+              "valor": 1,
+              "tipo_python": "int",
+              "tipo_sql": "INTEGER",
+              "restricao": "CHECK (valor >= 0)"
+            },
+            "chkEmpId": {
+              "tipo": "int",
+              "caminho": "raiz.detailLines[0].chkEmpId",
+              "valor": 1001,
+              "tipo_python": "int",
+              "tipo_sql": "INTEGER",
+              "restricao": "CHECK (valor >= 0)"
+            },
+            "chkEmpNum": {
+              "tipo": "int",
+              "caminho": "raiz.detailLines[0].chkEmpNum",
+              "valor": 1001,
+              "tipo_python": "int",
+              "tipo_sql": "INTEGER",
+              "restricao": "CHECK (valor >= 0)"
+            },
+            "svcRndNum": {
+              "tipo": "int",
+              "caminho": "raiz.detailLines[0].svcRndNum",
+              "valor": 1,
+              "tipo_python": "int",
+              "tipo_sql": "INTEGER",
+              "restricao": "CHECK (valor >= 0)"
+            },
+            "seatNum": {
+              "tipo": "int",
+              "caminho": "raiz.detailLines[0].seatNum",
+              "valor": 1,
+              "tipo_python": "int",
+              "tipo_sql": "INTEGER",
+              "restricao": "CHECK (valor >= 0)"
+            },
+            "menuItem": {
+              "tipo": "objeto",
+              "caminho": "raiz.detailLines[0].menuItem",
+              "propriedades": {
+                "miNum": {
+                  "tipo": "int",
+                  "caminho": "raiz.detailLines[0].menuItem.miNum",
+                  "valor": 501,
+                  "tipo_python": "int",
+                  "tipo_sql": "INTEGER",
+                  "restricao": "CHECK (valor >= 0)"
+                },
+                "modFlag": {
+                  "tipo": "bool",
+                  "caminho": "raiz.detailLines[0].menuItem.modFlag",
+                  "valor": false,
+                  "tipo_python": "bool",
+                  "tipo_sql": "INTEGER",
+                  "restricao": "CHECK (valor >= 0)"
+                },
+                "inclTax": {
+                  "tipo": "float",
+                  "caminho": "raiz.detailLines[0].menuItem.inclTax",
+                  "valor": 2.28,
+                  "tipo_python": "float",
+                  "tipo_sql": "DECIMAL(10, 2)"
+                },
+                "activeTaxes": {
+                  "tipo": "str",
+                  "caminho": "raiz.detailLines[0].menuItem.activeTaxes",
+                  "valor": "1",
+                  "tipo_python": "str",
+                  "tamanho": 1,
+                  "esta_vazio": false,
+                  "formato": "string_numerica",
+                  "tipo_sql": "VARCHAR"
+                },
+                "prcLvl": {
+                  "tipo": "int",
+                  "caminho": "raiz.detailLines[0].menuItem.prcLvl",
+                  "valor": 1,
+                  "tipo_python": "int",
+                  "tipo_sql": "INTEGER",
+                  "restricao": "CHECK (valor >= 0)"
+                },
+                "itemName": {
+                  "tipo": "str",
+                  "caminho": "raiz.detailLines[0].menuItem.itemName",
+                  "valor": "Hambúrguer Artesanal",
+                  "tipo_python": "str",
+                  "tamanho": 20,
+                  "esta_vazio": false,
+                  "formato": "texto",
+                  "tipo_sql": "VARCHAR(255)"
+                },
+                "categoryName": {
+                  "tipo": "str",
+                  "caminho": "raiz.detailLines[0].menuItem.categoryName",
+                  "valor": "Lanches",
+                  "tipo_python": "str",
+                  "tamanho": 7,
+                  "esta_vazio": false,
+                  "formato": "texto",
+                  "tipo_sql": "VARCHAR(255)"
+                },
+                "familyGroupName": {
+                  "tipo": "str",
+                  "caminho": "raiz.detailLines[0].menuItem.familyGroupName",
+                  "valor": "Principais",
+                  "tipo_python": "str",
+                  "tamanho": 10,
+                  "esta_vazio": false,
+                  "formato": "texto",
+                  "tipo_sql": "VARCHAR(255)"
+                },
+                "unitPrice": {
+                  "tipo": "float",
+                  "caminho": "raiz.detailLines[0].menuItem.unitPrice",
+                  "valor": 22.75,
+                  "tipo_python": "float",
+                  "tipo_sql": "DECIMAL(10, 2)"
+                },
+                "dspTtl": {
+                  "tipo": "float",
+                  "caminho": "raiz.detailLines[0].menuItem.dspTtl",
+                  "valor": 22.75,
+                  "tipo_python": "float",
+                  "tipo_sql": "DECIMAL(10, 2)"
+                },
+                "dspQty": {
+                  "tipo": "int",
+                  "caminho": "raiz.detailLines[0].menuItem.dspQty",
+                  "valor": 1,
+                  "tipo_python": "int",
+                  "tipo_sql": "INTEGER",
+                  "restricao": "CHECK (valor >= 0)"
+                },
+                "aggTtl": {
+                  "tipo": "float",
+                  "caminho": "raiz.detailLines[0].menuItem.aggTtl",
+                  "valor": 22.75,
+                  "tipo_python": "float",
+                  "tipo_sql": "DECIMAL(10, 2)"
+                },
+                "aggQty": {
+                  "tipo": "int",
+                  "caminho": "raiz.detailLines[0].menuItem.aggQty",
+                  "valor": 1,
+                  "tipo_python": "int",
+                  "tipo_sql": "INTEGER",
+                  "restricao": "CHECK (valor >= 0)"
+                },
+                "menuItemId": {
+                  "tipo": "str",
+                  "caminho": "raiz.detailLines[0].menuItem.menuItemId",
+                  "valor": "item-501-hamburger",
+                  "tipo_python": "str",
+                  "tamanho": 18,
+                  "esta_vazio": false,
+                  "formato": "texto",
+                  "tipo_sql": "VARCHAR(255)"
+                },
+                "categoryId": {
+                  "tipo": "str",
+                  "caminho": "raiz.detailLines[0].menuItem.categoryId",
+                  "valor": "cat-lanches",
+                  "tipo_python": "str",
+                  "tamanho": 11,
+                  "esta_vazio": false,
+                  "formato": "texto",
+                  "tipo_sql": "VARCHAR(255)"
+                },
+                "familyGroupId": {
+                  "tipo": "str",
+                  "caminho": "raiz.detailLines[0].menuItem.familyGroupId",
+                  "valor": "fam-principais",
+                  "tipo_python": "str",
+                  "tamanho": 14,
+                  "esta_vazio": false,
+                  "formato": "texto",
+                  "tipo_sql": "VARCHAR(255)"
+                }
+              },
+              "campos_obrigatorios": [
+                "miNum",
+                "modFlag",
+                "inclTax",
+                "activeTaxes",
+                "prcLvl",
+                "itemName",
+                "categoryName",
+                "familyGroupName",
+                "unitPrice",
+                "dspTtl",
+                "dspQty",
+                "aggTtl",
+                "aggQty",
+                "menuItemId",
+                "categoryId",
+                "familyGroupId"
+              ],
+              "campos_opcionais": []
+            }
+          },
+          "campos_obrigatorios": [
+            "guestCheckLineItemId",
+            "rvcNum",
+            "dtlOtNum",
+            "dtlOcNum",
+            "lineNum",
+            "dtlId",
+            "detailUTC",
+            "detailLcl",
+            "lastUpdateUTC",
+            "lastUpdateLcl",
+            "busDt",
+            "wsNum",
+            "dspTtl",
+            "dspQty",
+            "aggTtl",
+            "aggQty",
+            "chkEmpId",
+            "chkEmpNum",
+            "svcRndNum",
+            "seatNum",
+            "menuItem"
+          ],
+          "campos_opcionais": []
+        }
+      }
+    },
+    "campos_obrigatorios": [
+      "guestCheckId",
+      "chkNum",
+      "opnBusDt",
+      "opnUTC",
+      "opnLcl",
+      "clsdBusDt",
+      "clsdUTC",
+      "clsdLcl",
+      "lastTransUTC",
+      "lastTransLcl",
+      "lastUpdatedUTC",
+      "lastUpdatedLcl",
+      "clsdFlag",
+      "gstCnt",
+      "subTtl",
+      "nonTxblSlsTtl",
+      "chkTtl",
+      "dscTtl",
+      "payTtl",
+      "balDueTtl",
+      "rvcNum",
+      "otNum",
+      "ocNum",
+      "tblNum",
+      "tblName",
+      "empNum",
+      "numSrvcRd",
+      "numChkPrntd",
+      "taxes",
+      "detailLines"
+    ],
+    "campos_opcionais": []
+  },
+  "entidades_negocio": {
+    "comanda_cliente": {
+      "descricao": "Comanda/pedido do cliente",
+      "chave_primaria": "guestCheckId",
+      "significado_negocio": "Representa um pedido completo de um cliente",
+      "campos_chave": [
+        "guestCheckId",
+        "chkNum",
+        "opnBusDt",
+        "chkTtl"
+      ]
+    },
+    "linha_detalhe": {
+      "descricao": "Item individual da comanda",
+      "chave_primaria": "guestCheckLineItemId",
+      "significado_negocio": "Cada linha representa um item, desconto ou taxa",
+      "campos_chave": [
+        "guestCheckLineItemId",
+        "lineNum",
+        "dtlId"
+      ]
+    },
+    "item_menu": {
+      "descricao": "Item do cardápio",
+      "chave_primaria": "miNum",
+      "significado_negocio": "Produto/prato disponível no restaurante",
+      "campos_chave": [
+        "miNum",
+        "itemName",
+        "categoryName",
+        "unitPrice"
+      ]
+    },
+    "imposto": {
+      "descricao": "Imposto aplicado",
+      "chave_primaria": "taxNum",
+      "significado_negocio": "Tributos incidentes sobre a venda",
+      "campos_chave": [
+        "taxNum",
+        "taxRate",
+        "taxCollTtl"
+      ]
+    },
+    "desconto": {
+      "descricao": "Desconto aplicado",
+      "chave_primaria": "dscNum",
+      "significado_negocio": "Reduções no valor do pedido",
+      "campos_chave": [
+        "dscNum",
+        "dscName",
+        "dscValue",
+        "dscAmount"
+      ]
+    }
+  },
+  "relacionamentos": [
+    {
+      "pai": "comanda_cliente",
+      "filho": "linha_detalhe",
+      "tipo": "um_para_muitos",
+      "chave_estrangeira": "guestCheckId",
+      "descricao": "Uma comanda pode ter múltiplos itens"
+    },
+    {
+      "pai": "comanda_cliente",
+      "filho": "imposto",
+      "tipo": "um_para_muitos",
+      "chave_estrangeira": "guestCheckId",
+      "descricao": "Uma comanda pode ter múltiplos impostos"
+    },
+    {
+      "pai": "linha_detalhe",
+      "filho": "item_menu",
+      "tipo": "muitos_para_um",
+      "chave_estrangeira": "miNum",
+      "descricao": "Múltiplas linhas podem referenciar o mesmo item do menu"
+    },
+    {
+      "pai": "linha_detalhe",
+      "filho": "desconto",
+      "tipo": "um_para_um",
+      "chave_estrangeira": "guestCheckLineItemId",
+      "descricao": "Uma linha pode ter um desconto associado"
+    }
+  ],
+  "regras_qualidade_dados": [
+    {
+      "campo": "guestCheckId",
+      "regra": "NOT NULL AND formato UUID",
+      "descricao": "ID único obrigatório para cada comanda"
+    },
+    {
+      "campo": "chkTtl",
+      "regra": "chkTtl >= 0 AND chkTtl = subTtl + impostos - descontos",
+      "descricao": "Total deve ser positivo e consistente com cálculos"
+    },
+    {
+      "campo": "opnBusDt",
+      "regra": "Formato de data válido AND <= data_atual",
+      "descricao": "Data de abertura deve ser válida e não futura"
+    },
+    {
+      "campo": "clsdFlag",
+      "regra": "Boolean AND (clsdFlag = true IMPLIES clsdBusDt IS NOT NULL)",
+      "descricao": "Se fechado, deve ter data de fechamento"
+    },
+    {
+      "campo": "unitPrice",
+      "regra": "unitPrice > 0",
+      "descricao": "Preço unitário deve ser positivo"
+    }
+  ],
+  "mapeamento_sql": {
+    "guestCheckId": "UUID PRIMARY KEY",
+    "chkNum": "INTEGER NOT NULL",
+    "opnBusDt": "DATE NOT NULL",
+    "opnUTC": "TIMESTAMP WITH TIME ZONE",
+    "chkTtl": "DECIMAL(10,2) CHECK (chkTtl >= 0)",
+    "clsdFlag": "BOOLEAN DEFAULT FALSE",
+    "gstCnt": "INTEGER CHECK (gstCnt >= 0)",
+    "itemName": "VARCHAR(255) NOT NULL",
+    "unitPrice": "DECIMAL(10,2) CHECK (unitPrice > 0)",
+    "taxRate": "DECIMAL(5,2) CHECK (taxRate >= 0 AND taxRate <= 100)"
+  }
+}

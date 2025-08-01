@@ -1,0 +1,14 @@
+{
+  "endpoint": "getChargeBack",
+  "data_negocio": "2025-07-31",
+  "id_loja": "loja001",
+  "timestamp_ingestao": "2025-07-31T17:51:46.175670",
+  "versao_esquema": "1.0",
+  "hash_dados": "0fd78e554cbfd388e3b883b84d48f97b",
+  "tamanho_bytes": 123,
+  "versao_api": "2.1",
+  "origem": "sistema_pos",
+  "usuario": "operador001",
+  "caminho_arquivo": "dados\\data_lake\\dados_brutos\\getChargeBack\\ano=2025\\mes=07\\dia=31\\loja=loja001\\getChargeBack_loja001_20250731_175146.json",
+  "nome_arquivo": "getChargeBack_loja001_20250731_175146.json"
+}

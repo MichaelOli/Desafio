@@ -1,0 +1,21 @@
+{
+  "metadados": {
+    "endpoint": "getTransactions",
+    "data_negocio": "2025-07-31",
+    "id_loja": "loja001",
+    "timestamp_ingestao": "2025-07-31T18:18:19.345087",
+    "versao_esquema": "1.0",
+    "hash_dados": "932d85271b2b592e89d84ab4fd2656b4",
+    "tamanho_bytes": 127,
+    "versao_api": "2.1",
+    "origem": "sistema_pos",
+    "usuario": "operador001"
+  },
+  "dados": {
+    "transactionId": "TXN-2024-001",
+    "storeId": "loja001",
+    "amount": 120.0,
+    "paymentMethod": "credit_card",
+    "status": "completed"
+  }
+}

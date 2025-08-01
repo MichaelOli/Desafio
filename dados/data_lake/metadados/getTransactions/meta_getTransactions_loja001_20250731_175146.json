@@ -1,0 +1,14 @@
+{
+  "endpoint": "getTransactions",
+  "data_negocio": "2025-07-31",
+  "id_loja": "loja001",
+  "timestamp_ingestao": "2025-07-31T17:51:46.186398",
+  "versao_esquema": "1.0",
+  "hash_dados": "932d85271b2b592e89d84ab4fd2656b4",
+  "tamanho_bytes": 127,
+  "versao_api": "2.1",
+  "origem": "sistema_pos",
+  "usuario": "operador001",
+  "caminho_arquivo": "dados\\data_lake\\dados_brutos\\getTransactions\\ano=2025\\mes=07\\dia=31\\loja=loja001\\getTransactions_loja001_20250731_175146.json",
+  "nome_arquivo": "getTransactions_loja001_20250731_175146.json"
+}

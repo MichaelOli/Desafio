@@ -1,0 +1,36 @@
+{
+  "metadados": {
+    "endpoint": "getGuestChecks",
+    "data_negocio": "2025-07-31",
+    "id_loja": "loja001",
+    "timestamp_ingestao": "2025-07-31T17:51:46.161610",
+    "versao_esquema": "1.0",
+    "hash_dados": "935cfd99ba42c81635d8cecb88c224ca",
+    "tamanho_bytes": 264,
+    "versao_api": "2.1",
+    "origem": "sistema_pos",
+    "usuario": "operador001"
+  },
+  "dados": {
+    "guestCheckId": "12345678-1234-5678-9012-123456789012",
+    "chkNum": 1001,
+    "chkTtl": 85.5,
+    "items": [
+      {
+        "name": "Hambúrguer Artesanal",
+        "price": 35.0,
+        "qty": 1
+      },
+      {
+        "name": "Batata Frita",
+        "price": 15.0,
+        "qty": 2
+      },
+      {
+        "name": "Refrigerante",
+        "price": 8.5,
+        "qty": 4
+      }
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "descricao": "Documentação da estrutura e operação do data lake",
+  "estrutura_pastas": {
+    "raw": "dados_brutos",
+    "processed": "dados_processados",
+    "schemas": "esquemas",
+    "metadata": "metadados",
+    "archive": "arquivo",
+    "temp": "temporario"
+  },
+  "endpoints_suportados": [
+    "bilgetFiscalInvoice",
+    "getGuestChecks",
+    "getChargeBack",
+    "getTransactions",
+    "getCashManagementDetails"
+  ],
+  "estrategia_particionamento": "Por data (ano/mês/dia) e loja",
+  "formato_armazenamento": "JSON com metadados",
+  "estatisticas": {
+    "timestamp_calculo": "2025-07-31T18:53:25.736810",
+    "estrutura_pastas": {
+      "dados_brutos": {
+        "total_arquivos": 15,
+        "tamanho_mb": 0.01,
+        "caminho": "dados\\data_lake\\dados_brutos"
+      },
+      "dados_processados": {
+        "total_arquivos": 0,
+        "tamanho_mb": 0.0,
+        "caminho": "dados\\data_lake\\dados_processados"
+      },
+      "esquemas": {
+        "total_arquivos": 0,
+        "tamanho_mb": 0.0,
+        "caminho": "dados\\data_lake\\esquemas"
+      },
+      "metadados": {
+        "total_arquivos": 15,
+        "tamanho_mb": 0.01,
+        "caminho": "dados\\data_lake\\metadados"
+      },
+      "arquivo": {
+        "total_arquivos": 0,
+        "tamanho_mb": 0.0,
+        "caminho": "dados\\data_lake\\arquivo"
+      },
+      "temporario": {
+        "total_arquivos": 0,
+        "tamanho_mb": 0.0,
+        "caminho": "dados\\data_lake\\temporario"
+      }
+    },
+    "total_arquivos": 30,
+    "tamanho_total_mb": 0.02,
+    "endpoints": {
+      "bilgetFiscalInvoice": {
+        "total_arquivos": 3,
+        "lojas_unicas": [
+          "loja001"
+        ],
+        "datas_disponiveis": [
+          "2025-07-31"
+        ],
+        "tamanho_mb": 0.0
+      },
+      "getCashManagementDetails": {
+        "total_arquivos": 3,
+        "lojas_unicas": [
+          "loja001"
+        ],
+        "datas_disponiveis": [
+          "2025-07-31"
+        ],
+        "tamanho_mb": 0.0
+      },
+      "getChargeBack": {
+        "total_arquivos": 3,
+        "lojas_unicas": [
+          "loja001"
+        ],
+        "datas_disponiveis": [
+          "2025-07-31"
+        ],
+        "tamanho_mb": 0.0
+      },
+      "getGuestChecks": {
+        "total_arquivos": 3,
+        "lojas_unicas": [
+          "loja001"
+        ],
+        "datas_disponiveis": [
+          "2025-07-31"
+        ],
+        "tamanho_mb": 0.0
+      },
+      "getTransactions": {
+        "total_arquivos": 3,
+        "lojas_unicas": [
+          "loja001"
+        ],
+        "datas_disponiveis": [
+          "2025-07-31"
+        ],
+        "tamanho_mb": 0.0
+      }
+    },
+    "periodo_dados": {
+      "data_mais_antiga": null,
+      "data_mais_recente": null
+    }
+  },
+  "exemplos_uso": {
+    "armazenamento": "gerenciador.armazenar_resposta_api(endpoint, dados, data, loja)",
+    "busca": "gerenciador.buscar_dados(endpoint, data_inicio, data_fim, loja)",
+    "backup": "gerenciador.criar_backup(caminho_backup)"
+  }
+}

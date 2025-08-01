@@ -1,0 +1,14 @@
+{
+  "endpoint": "getCashManagementDetails",
+  "data_negocio": "2025-07-31",
+  "id_loja": "loja001",
+  "timestamp_ingestao": "2025-07-31T18:18:19.348964",
+  "versao_esquema": "1.0",
+  "hash_dados": "dc08b80f653ef65151f28589b428b7d0",
+  "tamanho_bytes": 129,
+  "versao_api": "2.1",
+  "origem": "sistema_pos",
+  "usuario": "operador001",
+  "caminho_arquivo": "dados\\data_lake\\dados_brutos\\getCashManagementDetails\\ano=2025\\mes=07\\dia=31\\loja=loja001\\getCashManagementDetails_loja001_20250731_181819.json",
+  "nome_arquivo": "getCashManagementDetails_loja001_20250731_181819.json"
+}

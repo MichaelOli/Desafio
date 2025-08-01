@@ -1,0 +1,14 @@
+{
+  "endpoint": "bilgetFiscalInvoice",
+  "data_negocio": "2025-07-31",
+  "id_loja": "loja001",
+  "timestamp_ingestao": "2025-07-31T17:51:46.156773",
+  "versao_esquema": "1.0",
+  "hash_dados": "71bcb09a16cfdc173939cdd9be4b1784",
+  "tamanho_bytes": 199,
+  "versao_api": "2.1",
+  "origem": "sistema_pos",
+  "usuario": "operador001",
+  "caminho_arquivo": "dados\\data_lake\\dados_brutos\\bilgetFiscalInvoice\\ano=2025\\mes=07\\dia=31\\loja=loja001\\bilgetFiscalInvoice_loja001_20250731_175146.json",
+  "nome_arquivo": "bilgetFiscalInvoice_loja001_20250731_175146.json"
+}

@@ -1,0 +1,17 @@
+dimensao,total_quantidade,total_vendas,ticket_medio,numero_vendas,categoria
+Headset,831,732474.73,4695.35,156,produto
+Monitor,879,816395.15,5070.78,161,produto
+Mouse,981,904422.56,5081.03,178,produto
+Notebook,912,867585.14,5044.1,172,produto
+Teclado,896,803327.43,4781.71,168,produto
+Webcam,931,948491.42,5748.43,165,produto
+Ana Silva,998,932662.67,5014.32,186,vendedor
+Carla Lima,1134,1053396.86,5040.18,209,vendedor
+João Santos,1119,1011561.62,5108.9,198,vendedor
+Maria Oliveira,1025,976900.25,5009.74,195,vendedor
+Pedro Costa,1154,1098175.03,5180.07,212,vendedor
+Centro,958,870917.76,4657.31,187,regiao
+Leste,1191,1136141.57,5309.07,214,regiao
+Norte,917,851554.5,4838.38,176,regiao
+Oeste,1150,1042109.65,5010.14,208,regiao
+Sul,1214,1171972.95,5451.04,215,regiao

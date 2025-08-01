@@ -1,0 +1,21 @@
+{
+  "metadados": {
+    "endpoint": "getChargeBack",
+    "data_negocio": "2025-07-31",
+    "id_loja": "loja001",
+    "timestamp_ingestao": "2025-07-31T18:18:19.341743",
+    "versao_esquema": "1.0",
+    "hash_dados": "0fd78e554cbfd388e3b883b84d48f97b",
+    "tamanho_bytes": 123,
+    "versao_api": "2.1",
+    "origem": "sistema_pos",
+    "usuario": "operador001"
+  },
+  "dados": {
+    "chargeBackId": "CB-2024-001",
+    "storeId": "loja001",
+    "amount": 25.0,
+    "reason": "Produto danificado",
+    "status": "approved"
+  }
+}
